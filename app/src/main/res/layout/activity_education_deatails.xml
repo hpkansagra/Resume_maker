@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Education_Details"
+    android:background="@color/purple_200"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter your Education information"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="25dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edt10th"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="10'th result :"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp">
+    </EditText>
+    <EditText
+        android:id="@+id/edt12th"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="12'th result :"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp">
+    </EditText>
+    <EditText
+        android:id="@+id/edtcollege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="College name :"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtgraduation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="graduation :"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/btnSubmit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
